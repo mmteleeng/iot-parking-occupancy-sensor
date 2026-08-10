@@ -16,7 +16,7 @@ The node wakes up every 39 seconds, takes a reading, sends the status to a sink 
 **Energy analysis:**
 Measured average power per phase (transmission, sensor reading, deep sleep) and used that to estimate battery life. With a battery budget of about 17,334 J, the node comes out to roughly 2,280 wake cycles, or about 38.6 hours of runtime before needing a battery change. Deep sleep dominates the energy budget even though it's low power, just because it runs so much longer than the active phases.
 
-Full breakdown and charts are in `parking_sensor_report.pdf`.
+Full breakdown and charts are in `challenge.pdf`.
 
 **Tools:** ESP32, Wokwi simulator, Arduino (C++), ESP-NOW
 
